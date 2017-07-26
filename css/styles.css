@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
+
 /* Header Styles */
 
 .navbar-inverse {
@@ -102,4 +104,38 @@ margin-top: 70px;
 
 #our-story {
   margin: 10% auto;
+}
+
+
+/** Begin Review Styles */
+
+#veggie-background {
+  background-image: url(../img/food_review.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+#veggie-background h1 {
+  font-family: "Lobster", cursive;
+  color: #f8512f;
+  text-shadow: 1px 1px 2px #313;
+  font-size: 63px;
+}
+
+#veggie-background p {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px 2px #313;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 300px;
+}
+
+.fresno-bee {
+  background-color: rgba(25, 25, 25, 0.5);
+  border-radius: 5px;
 }
