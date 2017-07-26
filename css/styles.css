@@ -139,3 +139,17 @@ margin-top: 70px;
   background-color: rgba(25, 25, 25, 0.5);
   border-radius: 5px;
 }
+
+/* End Review Styles */
+
+/*Begin Menu Styles */
+
+#menu {
+  height: 600px;
+  background-image: url(../img/black_linen.png);
+}
+
+.menu-head {
+  font-family: Lobster;
+  color: #fff;
+}
