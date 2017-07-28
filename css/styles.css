@@ -139,3 +139,15 @@ margin-top: 70px;
   background-color: rgba(25, 25, 25, 0.5);
   border-radius: 5px;
 }
+
+/* Begin contact styles */
+
+.contact-bg {
+  background-color: #f8512f;
+  height: 600px;
+}
+
+.required label:after {
+  content: "*";
+  color: white;
+}
