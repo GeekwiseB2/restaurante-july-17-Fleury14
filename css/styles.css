@@ -140,6 +140,47 @@ margin-top: 70px;
   border-radius: 5px;
 }
 
+/* End Review Styles */
+
+/*Begin Menu Styles */
+
+#menu {
+  background-image: url(../img/black_linen.png);
+  height: 600px;
+}
+
+#menu h1 {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  font-size: 5em;
+}
+
+.food {
+  background-color: #fff;
+  height: 465px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+
+
+#menu a, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #f8512f;
+  font-weight: 600;
+}
+
+
+/*.nav-tabs.nav-justified>li>a {
+  border: none;
+}*/
+
+.nav-tabs.nav-justified>.active>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.2);
+
+
+}
+
+
 /* Begin contact styles */
 
 .contact-padding > div:first-child {
@@ -226,4 +267,4 @@ form {
   height: 200px;
   width: 100%;
   margin-top: 30px;
-}
+
