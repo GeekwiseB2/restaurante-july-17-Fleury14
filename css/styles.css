@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster|Playfair+Display:900');
 
+/* Global Styles */
+
+.color-orange {
+  color: #f8512f;
+}
+
+.text-shadow-sm {
+  text-shadow: 1px 1px 2px #313;
+}
+
+.font-lobster {
+  font-family: "Lobster", cursive;
+}
+
+/* GLobal Styles end */
+
 /* Header Styles */
 
 .navbar-inverse {
@@ -52,7 +68,6 @@
 }
 
 .carousel-caption {
-    text-shadow: 1px 1px 2px #333;
     margin-bottom: 45px;
 }
 
@@ -69,14 +84,10 @@
 /* Our Story Style */
 
 .story-col {
-margin-top: 70px;
-
+  margin-top: 70px;
 }
 
 .story-col>h1 {
-  color: #f8512f;
-  font-family: "Lobster", cursive;
-  text-shadow: 1px 1px 2px #313;
   font-size: 5em;
   margin-bottom: 0px;
 }
@@ -120,16 +131,12 @@ margin-top: 70px;
 }
 
 #veggie-background h1 {
-  font-family: "Lobster", cursive;
-  color: #f8512f;
-  text-shadow: 1px 1px 2px #313;
   font-size: 63px;
 }
 
 #veggie-background p {
   font-family: "Lato", sans-serif;
   color: #fff;
-  text-shadow: 1px 1px 2px #313;
   font-size: 26px;
   line-height: 36px;
   font-weight: 300px;
@@ -146,11 +153,9 @@ margin-top: 70px;
 
 #menu {
   background-image: url(../img/black_linen.png);
-  height: 600px;
 }
 
 #menu h1 {
-  font-family: "Lobster", cursive;
   color: #fff;
   font-size: 5em;
 }
@@ -267,4 +272,3 @@ form {
   height: 200px;
   width: 100%;
   margin-top: 30px;
-
