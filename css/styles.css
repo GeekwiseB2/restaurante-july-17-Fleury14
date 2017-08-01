@@ -177,4 +177,94 @@ margin-top: 70px;
   background-color: rgba(255,255,255,0.2);
   border-color: rgba(255,255,255,0.2);
 
+
 }
+
+
+/* Begin contact styles */
+
+.contact-padding > div:first-child {
+  padding-right: 50px;
+}
+
+.contact-padding > div:last-child {
+  padding-left: 50px;
+}
+
+form {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  background-color: #ff6633;
+}
+
+#contact {
+  background-color: #f8512f;
+  height: 700px;
+  color: #fff;
+}
+
+.required label:after {
+  content: " *";
+  color: #ff0000;
+}
+
+.contact-caption {
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-caption h1 {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.contact-caption p {
+  font-family: "Lato", sans-serif;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-flex button {
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-red-star {
+  color: #ff0000;
+  font-family: "Lato", sans-serif;
+}
+
+.contact-red-star:before {
+  content: "All fields marked ";
+  color: #fff;
+}
+
+.contact-red-star:after {
+  content: " are mandatory";
+  color: #fff;
+}
+
+.contact-map p {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.contact-map h3 {
+  margin: 0px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.contact-map iframe {
+  border: none;
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+
